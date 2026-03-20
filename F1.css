@@ -1,0 +1,141 @@
+.Header {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 33px;
+  height: 22px;
+  padding: 5px;
+  justify-items: center;
+  align-items: self-start;
+  background-color: #457b9d;
+  background-color: #217b7e;
+  margin: 0%;
+  grid-template-areas: ". nav .";
+}
+
+#d1,
+#d2,
+#d3,
+#d4 {
+  display: inline-block;
+  padding: 3px;
+  background-color:;
+  color: black;
+  height: 18px;
+  position: relative;
+  bottom: 2px;
+}
+
+#nav-box {
+  grid-area: nav;
+}
+
+.img {
+  height: 46px;
+  border-radius: 3px;
+}
+
+#image {
+  position: relative;
+  left: 9px;
+  top: 7px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.des {
+  height: 60px;
+  background-color: #264653;
+  background-color: #02474d;
+}
+.des2 {
+  height: 1px;
+  background-color: black;
+}
+button {
+  color: #264653;
+  color: #032f3c;
+  background-color: #457b9d;
+  background-color: #217b7e;
+  border-width: 0px 1px 0px 1px;
+  border-color: #457b9d #264653 #457b9d #264653;
+}
+button:hover {
+  color: #1d3741;
+  background-color: #8ecae6;
+  background-color: #129a9f;
+  border-radius: 5px;
+}
+button:active {
+  color: #0f1d22;
+  background-color: #36627d;
+}
+button:visited {
+  color:;
+  background-color:;
+}
+body {
+  background-color: #a0dbdd;
+  background-color: #032f3c;
+  font-family: "Datatype", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.pimg,
+.p1,
+.top-space {
+  display: inline-block;
+}
+
+.hobo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 40px auto;
+  grid-template-areas:
+    "tbd tbd"
+    "sideimg mc";
+  justify-items: center;
+  justify-content: space-evenly;
+}
+
+.pimg {
+  grid-area: sideimg;
+}
+.p1 {
+  grid-area: mc;
+  background-color: #457b9d;
+  background-color: #3aa3a7;
+  color: #032f3c;
+  margin-right: 110px;
+  border-radius: 0px 90px;
+  padding: 25px;
+  font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.top-space {
+  grid-area: tbd;
+}
+#resim {
+  height: 400px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer {
+  background-color: #02474d;
+  height: 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

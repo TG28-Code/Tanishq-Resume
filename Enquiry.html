@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enquiry</title>
+    <link rel="stylesheet" href="F1.css" />
+    <link rel="stylesheet" href="F4.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&family=Lobster&family=Playwrite+NZ+Basic:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <div class="des">
+      <div id="image">
+        <img src="Header Img.webp" alt="Logo Img" class="img" />
+      </div>
+    </div>
+    <div class="Header">
+      <div class="nav-box" id="nav-box">
+        <div class="navi" id="d4">
+          <a href="index.html">
+            <button>Home</button>
+          </a>
+        </div>
+        <div class="navi" id="d1">
+          <a href="Resume.html"><button>Resume</button> </a>
+        </div>
+        <div class="navi" id="d2">
+          <a href="Contact.html"><button>Contact</button></a>
+        </div>
+        <div class="navi" id="d3">
+          <a href="Enquiry.html"><button>Enquiry</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="des2"></div>
+  </header>
+  <br /><br />
+  <body>
+    <div class="enq">
+      <p class="fak">For any kind of query, fill the form below-</p>
+      <br />
+      <form action="/form_submit_info/">
+        <label
+          >Name:&nbsp; &nbsp;
+          <input
+            type="text"
+            name="name"
+            id="name"
+            minlength="3"
+            maxlength="30"
+            required
+          /> </label
+        ><br /><br />
+        <label
+          >Email id:
+          <input
+            type="email"
+            name="name"
+            id="Email"
+            minlength="11"
+            maxlength="45"
+            required
+          /> </label
+        ><br /><br />
+
+        <label for="State">State:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="State" id="State" required>
+          <option>Select your state</option>
+          <option value="1">Uttar Pradesh</option>
+          <option value="2">Delhi</option>
+          <option value="3">Madhya Pradesh</option>
+          <option value="4">Maharashtra</option>
+          <option value="5">Gujarat</option>
+          <option value="6">Karnataka</option>
+          <option value="7">Rajasthan</option>
+          <option value="8">Haryana</option>
+          <option value="9">Other State</option></select
+        ><br /><br />
+        <label>Query type: </label>
+        <label class="r1"
+          ><input
+            type="radio"
+            name="query ty"
+            id="resume-related"
+            required
+          />Resume related</label
+        >
+
+        <label class="r2"
+          ><input
+            type="radio"
+            name="query ty"
+            id="other"
+            required
+          />Other</label
+        >
+        <br /><br />
+        <div class="bb">
+          <div class="d1"><label for="name">Your Query:</label></div>
+          &nbsp;
+          <div class="d2">
+            <textarea
+              name="name"
+              placeholder="Write down your query here"
+            ></textarea>
+          </div>
+        </div>
+
+        <button id="fosu">Submit</button>
+
+        <br /><br />
+      </form>
+    </div>
+    <div class="footer"></div>
+  </body>
+</html>

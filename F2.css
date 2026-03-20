@@ -1,0 +1,131 @@
+#resman{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-rows:repeat(3,1fr) ;
+    grid-template-rows: 150px 1fr 1fr;
+    grid-template-areas:
+    "intro blank"
+    "img prof"  
+    "sk ed";
+}
+
+.mon{
+    display: inline-block;
+ background-color: #3aa3a7;
+  color: #032f3c;
+  position: relative;
+}
+
+#d11 {
+grid-area: intro;
+display: inline-block;
+ background-color: #457b9d;
+  background-color: #3aa3a7;
+  color: #032f3c;
+  font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: smaller;
+  padding: 30px 120px;
+  margin-right: 105px;
+   border-radius: 0px 70px;
+}
+
+#d12 {
+grid-area: blank;
+display: inline-block;
+ background-color: #3aa3a7;
+}
+#d13{
+grid-area: img;
+display: inline-block;
+ background-color: #032f3c;
+  margin-right: ;
+  ;
+}
+
+#d14 {
+grid-area: prof;
+display: inline-block;
+font-size: smaller;
+padding: 45px;
+ margin-right: 145px;
+ border-radius: 25px;
+
+}
+
+#d15 {
+grid-area:ed ;
+display: flex;
+flex-direction: column;
+background-color: #032f3c;
+justify-self: left;
+align-self: self-start;
+display: inline-b!lock;
+font-size: smaller;
+
+padding:35p!x;
+margin-right: 160p!x;
+margin-left: 155p!x;
+border-radius: 25px;
+
+}
+
+#e15{
+background-color: #3aa3a7;
+position: relative;
+border-radius: 25px;
+padding:15px 25px 2px 25px;
+bottom: 25p!x;
+align-self: start;
+justify-self: left;
+
+}
+#e16{
+background-color: #3aa3a7;
+position: relative;
+border-radius: 25px;
+padding: 3px 25px;
+top: 30px;
+
+}
+
+
+#d17 {
+grid-area: sk;
+display: inline-block;
+font-size: smaller;
+padding:30px 35px 50px 35px;
+margin-right: 160px;
+margin-left: 155px;
+border-radius: 25px;
+align-self: first baseline;
+}
+
+#d18 {
+grid-area: spac;
+display: inline-block;
+font-size: smaller;
+}
+
+#works{
+    height: 275px;
+    border-radius: 25px;
+}
+h1{
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.p11, .p12, .p13, .p14{
+    font-size: medium;
+  font-weight: 800;
+  
+}

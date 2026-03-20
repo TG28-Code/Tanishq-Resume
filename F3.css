@@ -1,0 +1,30 @@
+table {
+  border-collapse: collapse;
+  border: 10px solid #02474d;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+th,
+td {
+  border: 1px solid #032f3c;
+  padding: 8px 10px;
+}
+h2 {
+  text-align: center;
+}
+th {
+  background-color: #217b7e;
+  color: #032f3c;
+}
+td {
+  background-color: #3aa3a7;
+  color: #032f3c;
+}
+#conh {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0e7a84;
+}
